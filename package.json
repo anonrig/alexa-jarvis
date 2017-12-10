@@ -1,0 +1,26 @@
+{
+  "name": "alexa-jarvis",
+  "version": "1.0.0",
+  "description": "Hopeful attempt to build the next Jarvis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anonrig/alexa-jarvis.git"
+  },
+  "author": "Yagiz Nizipli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anonrig/alexa-jarvis/issues"
+  },
+  "homepage": "https://github.com/anonrig/alexa-jarvis#readme",
+  "dependencies": {
+    "alexa-app": "^4.2.0",
+    "alexa-app-server": "^3.0.1",
+    "lgtv2": "^1.4.1",
+    "node-wol": "^0.1.1"
+  }
+}
