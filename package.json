@@ -18,9 +18,6 @@
   },
   "homepage": "https://github.com/anonrig/alexa-jarvis#readme",
   "dependencies": {
-    "alexa-app": "^4.2.0",
-    "alexa-app-server": "^3.0.1",
-    "lgtv2": "^1.4.1",
-    "node-wol": "^0.1.1"
+    "alexa-app-server": "^3.0.1"
   }
 }
