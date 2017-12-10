@@ -7,22 +7,18 @@ class TV {
     this.ip = null;
     this.isConnected = false;
     this.lgtv = lgtv({
-      url: 'ws://192.168.1.31:3000'
+      url: process.env.LGTV_URL || 'ws://192.168.1.31:3000'
     });
     this.bindEvents();
   }
 
   bindEvents() {
-    this.lgtv.on('connecting', () => {
-      console.log('Connecting');
-    });
+    this.lgtv.on('connecting', () => {});
 
-    this.lgtv.on('connect', () => {
-      console.log('Connected');
-    });
+    this.lgtv.on('connect', () => {});
 
     this.lgtv.on('error', (error) => {
-      console.error('Error', error);
+      // console.error('Error', error);
     });
   }
 
@@ -31,7 +27,6 @@ class TV {
     return new Promise((resolve, reject) => {
       this.lgtv.request('ssap://system/turnOff', (err) => {
         if (err) return reject(err);
-        console.log('Turned off');
         resolve();
       });
     });
@@ -45,7 +40,6 @@ class TV {
         port: 3000
       }, (error) => {
         if (error) return reject(error);
-        console.log('Turned on');
         resolve();
       });
     });

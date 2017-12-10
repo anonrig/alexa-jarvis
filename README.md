@@ -10,6 +10,7 @@
   - PORT: 8080
   - LGTV_URL: 'ws://192.168.1.31:3000'
   - ALEXA_APP: 'jarvis'
+  - APSIYON_SESSION_ID: 'session-id'
 
 #### Testing
 
@@ -20,6 +21,8 @@
 - LG WebOS integration to turn on and off tv.
   - "Alexa ask Jarvis to turn on tv"
   - "Alexa ask Jarvis to turn off tv"
+- Learn maintenance fee (aidat) from Apsiyon.com
+  - "Alexa ask Jarvis to learn my maintenance fee"
 
 #### Todo
 

@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/anonrig/alexa-jarvis#readme",
   "dependencies": {
-    "alexa-app-server": "^3.0.1"
+    "alexa-app-server": "^3.0.1",
+    "dotenv": "^4.0.0"
   }
 }

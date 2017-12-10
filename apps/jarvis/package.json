@@ -10,6 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "alexa-app": "^4.2.0",
+    "cheerio": "^1.0.0-rc.2",
     "lgtv2": "^1.4.1",
     "node-wol": "^0.1.1"
   }
