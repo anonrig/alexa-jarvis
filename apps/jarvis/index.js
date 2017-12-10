@@ -6,7 +6,7 @@ const webos = new TV();
 
 Skill
   .intent('turnon', {
-    'utterances': ['turn on tv', 'ask jarvis to turn on tv']
+    'utterances': ['ask jarvis to turn on tv']
   }, (req, res) => {
     res.say('Turning on tv');
     webos.turnOn();
@@ -14,7 +14,7 @@ Skill
 
 Skill
   .intent('turnoff', {
-    utterances: ['turn off tv', 'ask jarvis to turn off tv']
+    utterances: ['ask jarvis to turn off tv']
   }, (req, res) => {
     res.say('Turning off tv');
     webos.turnOff();
