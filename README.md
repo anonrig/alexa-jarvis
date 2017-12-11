@@ -8,6 +8,7 @@
 - Run `npm install` on the root directory.
 - Add necessary process environments.
   - PORT: 8080
+  - LOCALTUNNEL_SUBDOMAIN: 'alexa-test-jarvis'
   - LGTV_URL: 'ws://192.168.1.31:3000'
   - ALEXA_APP: 'jarvis'
   - APSIYON_SESSION_ID: 'session-id'
